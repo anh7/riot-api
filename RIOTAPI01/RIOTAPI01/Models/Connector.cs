@@ -12,7 +12,7 @@ namespace RIOTAPI01.Models
         public string key { get; set; }
         public Connector()
         {
-            //key = Utility.GetAppSettings()
+            key = AppSettings.Common.APIKey;
         }
     }
 }
